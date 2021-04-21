@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7A620092630122500B46FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A620082630122500B46FB2 /* AppDelegate.swift */; };
+		C7A6200B2630122500B46FB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A6200A2630122500B46FB2 /* SceneDelegate.swift */; };
+		C7A620122630122600B46FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A620112630122600B46FB2 /* Assets.xcassets */; };
+		C7A620152630122600B46FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A620132630122600B46FB2 /* LaunchScreen.storyboard */; };
+		C7A620202630122600B46FB2 /* TabItemTapScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A6201F2630122600B46FB2 /* TabItemTapScrollTests.swift */; };
+		C7A6202B2630122600B46FB2 /* TabItemTapScrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A6202A2630122600B46FB2 /* TabItemTapScrollUITests.swift */; };
+		C7A6203C2630130200B46FB2 /* ItemTapScrollTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A6203B2630130200B46FB2 /* ItemTapScrollTabController.swift */; };
+		C7A620412630138A00B46FB2 /* Scrollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A620402630138A00B46FB2 /* Scrollable.swift */; };
+		C7A6204D2630450500B46FB2 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A6204C2630450500B46FB2 /* AViewController.swift */; };
+		C7A620552630450F00B46FB2 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A620542630450F00B46FB2 /* BViewController.swift */; };
+		C7A6205A2630451700B46FB2 /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A620592630451700B46FB2 /* CViewController.swift */; };
+		C7A6205F2630456500B46FB2 /* AChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A6205E2630456500B46FB2 /* AChildViewController.swift */; };
+		C7A620642630456F00B46FB2 /* BChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A620632630456F00B46FB2 /* BChildViewController.swift */; };
+		C7A620692630457900B46FB2 /* CChildeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A620682630457900B46FB2 /* CChildeViewController.swift */; };
+		C7A6207A2630478100B46FB2 /* ViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A620792630478100B46FB2 /* ViewController+.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7A6201C2630122600B46FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7A61FFD2630122500B46FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A620042630122500B46FB2;
+			remoteInfo = TabItemTapScroll;
+		};
+		C7A620272630122600B46FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7A61FFD2630122500B46FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A620042630122500B46FB2;
+			remoteInfo = TabItemTapScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7A620052630122500B46FB2 /* TabItemTapScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabItemTapScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A620082630122500B46FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7A6200A2630122500B46FB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7A620112630122600B46FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7A620142630122600B46FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7A620162630122600B46FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A6201B2630122600B46FB2 /* TabItemTapScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabItemTapScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A6201F2630122600B46FB2 /* TabItemTapScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemTapScrollTests.swift; sourceTree = "<group>"; };
+		C7A620212630122600B46FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A620262630122600B46FB2 /* TabItemTapScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabItemTapScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A6202A2630122600B46FB2 /* TabItemTapScrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemTapScrollUITests.swift; sourceTree = "<group>"; };
+		C7A6202C2630122600B46FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A6203B2630130200B46FB2 /* ItemTapScrollTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTapScrollTabController.swift; sourceTree = "<group>"; };
+		C7A620402630138A00B46FB2 /* Scrollable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrollable.swift; sourceTree = "<group>"; };
+		C7A6204C2630450500B46FB2 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		C7A620542630450F00B46FB2 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		C7A620592630451700B46FB2 /* CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
+		C7A6205E2630456500B46FB2 /* AChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AChildViewController.swift; sourceTree = "<group>"; };
+		C7A620632630456F00B46FB2 /* BChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BChildViewController.swift; sourceTree = "<group>"; };
+		C7A620682630457900B46FB2 /* CChildeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CChildeViewController.swift; sourceTree = "<group>"; };
+		C7A620792630478100B46FB2 /* ViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7A620022630122500B46FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A620182630122600B46FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A620232630122600B46FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7A61FFC2630122500B46FB2 = {
+			isa = PBXGroup;
+			children = (
+				C7A620072630122500B46FB2 /* TabItemTapScroll */,
+				C7A6201E2630122600B46FB2 /* TabItemTapScrollTests */,
+				C7A620292630122600B46FB2 /* TabItemTapScrollUITests */,
+				C7A620062630122500B46FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7A620062630122500B46FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7A620052630122500B46FB2 /* TabItemTapScroll.app */,
+				C7A6201B2630122600B46FB2 /* TabItemTapScrollTests.xctest */,
+				C7A620262630122600B46FB2 /* TabItemTapScrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7A620072630122500B46FB2 /* TabItemTapScroll */ = {
+			isa = PBXGroup;
+			children = (
+				C7A62075263045C600B46FB2 /* Component */,
+				C7A6204B263044E600B46FB2 /* ViewController */,
+				C7A620082630122500B46FB2 /* AppDelegate.swift */,
+				C7A6200A2630122500B46FB2 /* SceneDelegate.swift */,
+				C7A620112630122600B46FB2 /* Assets.xcassets */,
+				C7A620132630122600B46FB2 /* LaunchScreen.storyboard */,
+				C7A620162630122600B46FB2 /* Info.plist */,
+				C7A620792630478100B46FB2 /* ViewController+.swift */,
+			);
+			path = TabItemTapScroll;
+			sourceTree = "<group>";
+		};
+		C7A6201E2630122600B46FB2 /* TabItemTapScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6201F2630122600B46FB2 /* TabItemTapScrollTests.swift */,
+				C7A620212630122600B46FB2 /* Info.plist */,
+			);
+			path = TabItemTapScrollTests;
+			sourceTree = "<group>";
+		};
+		C7A620292630122600B46FB2 /* TabItemTapScrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6202A2630122600B46FB2 /* TabItemTapScrollUITests.swift */,
+				C7A6202C2630122600B46FB2 /* Info.plist */,
+			);
+			path = TabItemTapScrollUITests;
+			sourceTree = "<group>";
+		};
+		C7A6204B263044E600B46FB2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6204C2630450500B46FB2 /* AViewController.swift */,
+				C7A620542630450F00B46FB2 /* BViewController.swift */,
+				C7A620592630451700B46FB2 /* CViewController.swift */,
+				C7A6205E2630456500B46FB2 /* AChildViewController.swift */,
+				C7A620632630456F00B46FB2 /* BChildViewController.swift */,
+				C7A620682630457900B46FB2 /* CChildeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C7A62075263045C600B46FB2 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C7A620402630138A00B46FB2 /* Scrollable.swift */,
+				C7A6203B2630130200B46FB2 /* ItemTapScrollTabController.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7A620042630122500B46FB2 /* TabItemTapScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A6202F2630122600B46FB2 /* Build configuration list for PBXNativeTarget "TabItemTapScroll" */;
+			buildPhases = (
+				C7A620012630122500B46FB2 /* Sources */,
+				C7A620022630122500B46FB2 /* Frameworks */,
+				C7A620032630122500B46FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabItemTapScroll;
+			productName = TabItemTapScroll;
+			productReference = C7A620052630122500B46FB2 /* TabItemTapScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7A6201A2630122600B46FB2 /* TabItemTapScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A620322630122600B46FB2 /* Build configuration list for PBXNativeTarget "TabItemTapScrollTests" */;
+			buildPhases = (
+				C7A620172630122600B46FB2 /* Sources */,
+				C7A620182630122600B46FB2 /* Frameworks */,
+				C7A620192630122600B46FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A6201D2630122600B46FB2 /* PBXTargetDependency */,
+			);
+			name = TabItemTapScrollTests;
+			productName = TabItemTapScrollTests;
+			productReference = C7A6201B2630122600B46FB2 /* TabItemTapScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7A620252630122600B46FB2 /* TabItemTapScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A620352630122600B46FB2 /* Build configuration list for PBXNativeTarget "TabItemTapScrollUITests" */;
+			buildPhases = (
+				C7A620222630122600B46FB2 /* Sources */,
+				C7A620232630122600B46FB2 /* Frameworks */,
+				C7A620242630122600B46FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A620282630122600B46FB2 /* PBXTargetDependency */,
+			);
+			name = TabItemTapScrollUITests;
+			productName = TabItemTapScrollUITests;
+			productReference = C7A620262630122600B46FB2 /* TabItemTapScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7A61FFD2630122500B46FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C7A620042630122500B46FB2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C7A6201A2630122600B46FB2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C7A620042630122500B46FB2;
+					};
+					C7A620252630122600B46FB2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C7A620042630122500B46FB2;
+					};
+				};
+			};
+			buildConfigurationList = C7A620002630122500B46FB2 /* Build configuration list for PBXProject "TabItemTapScroll" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7A61FFC2630122500B46FB2;
+			productRefGroup = C7A620062630122500B46FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7A620042630122500B46FB2 /* TabItemTapScroll */,
+				C7A6201A2630122600B46FB2 /* TabItemTapScrollTests */,
+				C7A620252630122600B46FB2 /* TabItemTapScrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7A620032630122500B46FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A620152630122600B46FB2 /* LaunchScreen.storyboard in Resources */,
+				C7A620122630122600B46FB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A620192630122600B46FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A620242630122600B46FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7A620012630122500B46FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A620552630450F00B46FB2 /* BViewController.swift in Sources */,
+				C7A620692630457900B46FB2 /* CChildeViewController.swift in Sources */,
+				C7A6205A2630451700B46FB2 /* CViewController.swift in Sources */,
+				C7A620092630122500B46FB2 /* AppDelegate.swift in Sources */,
+				C7A6205F2630456500B46FB2 /* AChildViewController.swift in Sources */,
+				C7A6207A2630478100B46FB2 /* ViewController+.swift in Sources */,
+				C7A6203C2630130200B46FB2 /* ItemTapScrollTabController.swift in Sources */,
+				C7A620412630138A00B46FB2 /* Scrollable.swift in Sources */,
+				C7A6204D2630450500B46FB2 /* AViewController.swift in Sources */,
+				C7A620642630456F00B46FB2 /* BChildViewController.swift in Sources */,
+				C7A6200B2630122500B46FB2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A620172630122600B46FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A620202630122600B46FB2 /* TabItemTapScrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A620222630122600B46FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A6202B2630122600B46FB2 /* TabItemTapScrollUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7A6201D2630122600B46FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A620042630122500B46FB2 /* TabItemTapScroll */;
+			targetProxy = C7A6201C2630122600B46FB2 /* PBXContainerItemProxy */;
+		};
+		C7A620282630122600B46FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A620042630122500B46FB2 /* TabItemTapScroll */;
+			targetProxy = C7A620272630122600B46FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7A620132630122600B46FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A620142630122600B46FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7A6202D2630122600B46FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7A6202E2630122600B46FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7A620302630122600B46FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FXVG8497;
+				INFOPLIST_FILE = TabItemTapScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaruhara.TabItemTapScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7A620312630122600B46FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FXVG8497;
+				INFOPLIST_FILE = TabItemTapScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaruhara.TabItemTapScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7A620332630122600B46FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FXVG8497;
+				INFOPLIST_FILE = TabItemTapScrollTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaruhara.TabItemTapScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabItemTapScroll.app/TabItemTapScroll";
+			};
+			name = Debug;
+		};
+		C7A620342630122600B46FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FXVG8497;
+				INFOPLIST_FILE = TabItemTapScrollTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaruhara.TabItemTapScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabItemTapScroll.app/TabItemTapScroll";
+			};
+			name = Release;
+		};
+		C7A620362630122600B46FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FXVG8497;
+				INFOPLIST_FILE = TabItemTapScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaruhara.TabItemTapScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabItemTapScroll;
+			};
+			name = Debug;
+		};
+		C7A620372630122600B46FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FXVG8497;
+				INFOPLIST_FILE = TabItemTapScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaruhara.TabItemTapScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabItemTapScroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7A620002630122500B46FB2 /* Build configuration list for PBXProject "TabItemTapScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A6202D2630122600B46FB2 /* Debug */,
+				C7A6202E2630122600B46FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A6202F2630122600B46FB2 /* Build configuration list for PBXNativeTarget "TabItemTapScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A620302630122600B46FB2 /* Debug */,
+				C7A620312630122600B46FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A620322630122600B46FB2 /* Build configuration list for PBXNativeTarget "TabItemTapScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A620332630122600B46FB2 /* Debug */,
+				C7A620342630122600B46FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A620352630122600B46FB2 /* Build configuration list for PBXNativeTarget "TabItemTapScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A620362630122600B46FB2 /* Debug */,
+				C7A620372630122600B46FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7A61FFD2630122500B46FB2 /* Project object */;
+}
